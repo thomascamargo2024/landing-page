@@ -6,7 +6,37 @@ Este é um projeto de **Landing Page moderna** desenvolvido com **HTML, CSS e Ja
 
 ## 📸 Demonstração do Projeto
 
-![Landing Page Demo](nova-landig-page/imagens/imagem-landing-page%20-%20Copia.PNG)
+# 🚀 Landing Page - Projeto Web
+
+Este é um projeto de **Landing Page moderna** desenvolvido com HTML, CSS e JavaScript.
+
+---
+
+## 📸 Demonstração do Projeto
+
+![Landing Page Demo](https://raw.githubusercontent.com/thomascamargo2024/landing-page/main/Nova-landing-page/imagens/imagem-landing-page%20-%20Copia.PNG)
+
+---
+
+## ✨ Sobre o Projeto
+
+Projeto criado para praticar desenvolvimento front-end com foco em layout moderno, responsivo e interativo.
+
+---
+
+## 🛠️ Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 🚀 Como executar
+
+```bash
+git clone https://github.com/thomascamargo2024/landing-page.git
+cd landing-page
 
 ---
 
