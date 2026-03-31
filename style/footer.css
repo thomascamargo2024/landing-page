@@ -1,0 +1,87 @@
+.subscrible {
+    width: 80%;
+    height: 400px;
+    background-image: url(/imagens/imagem-subscrible.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.137);
+    margin-top: 60px;
+}
+
+.secao-subscrible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    background-color: white;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 30px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.formulario > p {
+    color: white;
+}
+
+.formulario > h1 {
+    color: white;
+}
+
+.text {
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+.submit {
+    padding: 14px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+}
+
+.ontell {
+    height: 150px;
+}
+
+.ontell > p {
+    color: rgb(71, 71, 71);
+}
+
+.ontell > h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ontell > ul {
+    list-style: none;
+}
+
+.ontell > ul > li {
+    color: rgb(71, 71, 71);
+    line-height: 20px;
+}
+

@@ -1,0 +1,410 @@
+.marca,
+.botao-login,
+ li {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: itemNav 0.9s ease forwards;
+}
+
+.menu-navegacao li:nth-child(4) { animation-delay: 0.4s; }
+.menu-navegacao li:nth-child(3) { animation-delay: 0.5s; }
+.menu-navegacao li:nth-child(2) { animation-delay: 0.6s; }
+.menu-navegacao li:nth-child(1) { animation-delay: 0.7s; }
+
+
+@keyframes itemNav {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.titulo,
+.texto,
+.botao-loja {
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+@keyframes aparecerSubindo {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.titulo {
+  animation: aparecerSubindo 0.6s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.texto {
+  animation: aparecerSubindo 0.6s ease forwards;
+  animation-delay: 0.7s;
+}
+
+.botao-loja {
+  animation: aparecerSubindo 0.6s ease forwards;
+  animation-delay: 1.1s;
+}
+
+.imagem-bike {
+  transform: translateX(120px); 
+  opacity: 0;
+  animation: entrarImagem 1s ease forwards;
+}
+
+@keyframes entrarImagem {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.home,
+.texto-propaganda,
+.botoes {
+    opacity: 0;
+    transform: translateX(-80px); 
+    transition: all 0.8s ease;
+}
+
+
+.mostrar {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.home.mostrar {
+    transition-delay: 0.2s;
+}
+
+.texto-propaganda.mostrar {
+    transition-delay: 0.5s;
+}
+
+.botoes.mostrar {
+    transition-delay: 0.8s;
+}
+
+
+
+
+.home,
+.texto-propaganda,
+.botoes {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: all 0.4s ease;
+}
+
+.home.mostrar,
+.texto-propaganda.mostrar,
+.botoes.mostrar {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.home.mostrar {
+    transition-delay: 0.1s;
+}
+
+.texto-propaganda.mostrar {
+    transition-delay: 0.5s;
+}
+
+.botoes.mostrar {
+    transition-delay: 0.8s;
+}
+
+
+
+.texto-sombreado h1 {
+    margin: 0;
+    display: block;
+}
+
+.secao-imagens .coluna-esquerda img,
+.preco,
+.card-bege,
+.imagem-coluna2 {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s ease;
+    will-change: transform, opacity;
+}
+
+.texto-sombreado.animar {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible; 
+}
+
+.secao-imagens .coluna-esquerda img.animar,
+.preco.animar,
+.card-bege.animar,
+.imagem-coluna2.animar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.texto-sombreado.animar {
+    transition-delay: 0.2s;
+}
+
+.secao-imagens .coluna-esquerda img.animar {
+    transition-delay: 0.1s;
+}
+
+.preco.animar {
+    transition-delay: 0.2s;
+}
+
+.card-bege.animar {
+    transition-delay: 0.2s;
+}
+
+.imagem-coluna2.animar {
+    transition-delay: 0.1s;
+}
+
+
+img {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+.secao-imagens,
+.coluna-esquerda,
+.coluna-direita {
+    overflow: visible;
+}
+
+
+
+
+
+.pacotes {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+}
+
+
+.sombra-img,
+.pacotes img {
+    transform: translateX(-120px);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.informacoes-pacote {
+    transform: translateX(120px);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+
+.pacotes.ativo .sombra-img,
+.pacotes.ativo img {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.pacotes.ativo .informacoes-pacote {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.pacotes img {
+    width: 320px;
+    border-radius: 10px;
+}
+
+.informacoes-pacote {
+    max-width: 500px;
+}
+
+
+.sombra-img,
+.pacotes img {
+    transform: translateX(-120px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.mostrar {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+}
+
+.informacoes-pacote {
+    transform: translateX(120px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.animar-direita {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+
+
+
+
+.animar,
+.mostrar,
+.animar-direita,
+.service-repair,
+.texto-dianna,
+.imagem-dianna,
+.sombra-img,
+.pacotes img,
+.informacoes-pacote {
+    will-change: transform, opacity;
+}
+
+
+
+.home,
+.texto-propaganda,
+.botoes {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.mostrar {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+
+
+.sombra-img,
+.pacotes img {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.informacoes-pacote {
+    opacity: 0;
+    transform: translateX(80px);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.animar-direita {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+.service-repair {
+    opacity: 0;
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.service-repair:nth-child(odd) {
+    transform: translateX(-80px);
+}
+
+.service-repair:nth-child(even) {
+    transform: translateX(80px);
+}
+
+.service-repair.ativo {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.service-repair:nth-child(1).ativo { transition-delay: 0.15s; }
+.service-repair:nth-child(2).ativo { transition-delay: 0.3s; }
+.service-repair:nth-child(3).ativo { transition-delay: 0.45s; }
+
+
+.texto-dianna {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.imagem-dianna {
+    opacity: 0;
+    transform: translateX(80px);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.texto-dianna.ativo,
+.imagem-dianna.ativo {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.texto-dianna > * {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: 0.5s ease;
+}
+
+.texto-dianna.ativo > * {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.texto-dianna.ativo .aspas { transition-delay: 0.2s; }
+.texto-dianna.ativo p { transition-delay: 0.35s; }
+.texto-dianna.ativo .nome-dianna { transition-delay: 0.5s; }
+.texto-dianna.ativo .ui-design { transition-delay: 0.65s; }
+
+
+
+.formulario {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+}
+
+.formulario.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+footer .ontell {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+footer .ontell.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+footer .ontell:nth-child(1).ativo { transition-delay: 0.1s; }
+footer .ontell:nth-child(2).ativo { transition-delay: 0.2s; }
+footer .ontell:nth-child(3).ativo { transition-delay: 0.3s; }
+footer .ontell:nth-child(4).ativo { transition-delay: 0.4s; }
+footer .ontell:nth-child(5).ativo { transition-delay: 0.5s; }
+
+
+
+
+
+
+
+
+
+
+
+

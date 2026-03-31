@@ -1,0 +1,160 @@
+.secao-de-propaganda {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    font-size: 12px;
+    gap: 15px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 200px;
+    gap: 8px;
+}
+
+.botoes > img{
+    width: 20px;
+    padding: 2px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 50%;
+}
+
+.texto-propaganda {
+    font-size: 14px;
+}
+
+.secao-imagens {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.texto-letsride {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.coluna-direita, .coluna-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.coluna-esquerda {
+    justify-content: flex-start;
+    position: relative;
+}
+
+.coluna-direita {
+    gap: 40px;
+}
+
+.card-bege {
+    width: 220px;
+    height: 250px;
+    padding: 20px;
+    background-color: rgb(170, 170, 170);
+}
+
+.card-bege > h3 {
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.card-bege > p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.preco {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-left: 60px;
+    position: relative;
+}
+
+.shop-now {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-left: 1px solid rgb(105, 105, 105);
+    font-size: 15px;
+}
+
+.texto-sombreado {
+    font-size: 25px;
+    position: absolute;
+    left: 7.5%;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.932);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.973));
+    
+    padding: 10px;
+    width: 85%;
+    text-align: center;
+    border-bottom: none;
+}
+
+.texto-letsride {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+    border-top: 1px solid rgba(0, 0, 0, 0.425);
+}
+
+.logos > img {
+    width: 90px;
+}
+
+.our-partner {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    font-size: 24px;
+}

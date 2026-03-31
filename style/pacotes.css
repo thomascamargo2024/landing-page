@@ -1,0 +1,155 @@
+.pacotes {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0px;
+    background-color: white;
+    position: relative;
+    height: 350px;
+}
+
+.informacoes-pacote {
+    width: 100%;
+    width: 300px;
+}
+
+.titulo-informacoes {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.read-more {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+
+.read-more > a {
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.paragrafo-pacote {
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+}
+
+.sombra-img {
+    background-color: rgb(211, 211, 211);
+    position: absolute;
+    width: 320px;
+    height: 240px;
+    left: 0;
+}
+
+.sombra-img > img {
+    position: relative;
+}
+
+.pacotes > img {
+    position: relative;
+}
+
+.servico-premium {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 50px;
+    gap: 30px;
+}
+
+.service-repair {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.service-repair > h2 {
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.service-repair > p {
+    color: rgb(61, 61, 61);
+}
+
+.linha {
+    width: 50px;
+    color: black;
+    background-color: black;
+    height: 2px;
+    margin-right: 20px;
+}
+
+.premium-service {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.premium-service > h3 {
+    font-size: 18px;
+}
+
+.pacote-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dianna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(214, 214, 214);
+    height: 450px;
+}
+
+.texto-dianna {
+    width: 300px;
+}
+
+.texto-dianna > .nome-dianna {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.texto-dianna > .ui-design {
+    font-size: 10px;
+    margin-top: 16px;
+}
+
+.aspas {
+    width: 30px;
+    margin-bottom: 10px;
+
+}
+
+.imagem-dianna > img {
+    position: relative;
+}
+
+.imagem-dianna {
+    position: relative;
+}
+
+.sombra-dianna {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    background-color: rgb(184, 184, 184);
+    top: -30px;
+    left: 40px;
+}
